@@ -26,7 +26,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/a-new-way-to-cross-the-wall\/"
-        },"genre": "posts","wordcount":  1065 ,
+        },"genre": "posts","wordcount":  1069 ,
         "url": "http:\/\/example.org\/posts\/a-new-way-to-cross-the-wall\/","datePublished": "2020-05-16T17:50:55+08:00","dateModified": "2020-05-16T17:50:55+08:00","author": {
                 "@type": "Person",
                 "name": "作者"
@@ -75,7 +75,7 @@
         </div><article class="page single"><h1 class="single-title animated flipInX">Trojan - 新时代的上网冲浪</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-05-16>2020-05-16</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1065 字&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1069 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
@@ -85,11 +85,10 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#1-前言">1 前言</a></li>
-    <li><a href="#2-pc端下载以及配置">2 PC端下载以及配置</a></li>
-    <li><a href="#3-chrome-搭配-switchyomega-科学上网">3 Chrome 搭配 SwitchyOmega 科学上网</a>
+    <li><a href="#2-pc端下载以及配置">2 PC端下载以及配置</a>
       <ul>
-        <li><a href="#31-下载安装">3.1 下载安装</a></li>
-        <li><a href="#32-配置-switchyomega">3.2 配置 SwitchyOmega</a></li>
+        <li><a href="#21-windows--mac">2.1 Windows &amp;&amp; Mac</a></li>
+        <li><a href="#22-chrome-搭配-switchyomega-科学上网">2.2 Chrome 搭配 SwitchyOmega 科学上网</a></li>
       </ul>
     </li>
   </ul>
@@ -97,6 +96,7 @@
             </div><div class="content" id="content"><h2 id="1-前言">1 前言</h2>
 <p>众所周知，墙是越砌越高封锁连连，实在招架不住频繁更换服务器，无奈之下只好采用最新的技术来实现科学上网。由于是新鲜事物，并不像之前 SSR 有那么丰富的图形界面可供操作，还请诸位看官多多包涵。</p>
 <h2 id="2-pc端下载以及配置">2 PC端下载以及配置</h2>
+<h3 id="21-windows--mac">2.1 Windows &amp;&amp; Mac</h3>
 <p>Windows端 点这里 -&gt; <a href="https://github.com/trojan-gfw/trojan/releases/download/v1.15.1/trojan-1.15.1-win.zip" target="_blank" rel="noopener noreffer">trojan-1.15.1-win.zip</a></p>
 <p>Mac端 点这里 -&gt; <a href="https://github.com/trojan-gfw/trojan/releases/download/v1.15.1/trojan-1.15.1-macos.zip" target="_blank" rel="noopener noreffer">trojan-1.15.1-macos.zip</a></p>
 <p>需注意在<code>Windows</code>运行该程序需要VC环境，如果打开报错请运行压缩包所包含的<code>VC_redist64</code></p>
@@ -135,14 +135,14 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div><p>修改好就直接运行程序，<code>Windows</code>打开<code>trojan.exe</code>，<code>Mac</code>打开<code>start.command</code></p>
-<h2 id="3-chrome-搭配-switchyomega-科学上网">3 Chrome 搭配 SwitchyOmega 科学上网</h2>
+<h3 id="22-chrome-搭配-switchyomega-科学上网">2.2 Chrome 搭配 SwitchyOmega 科学上网</h3>
 <p>由于没有像 SSR 有 Pac 代理或者全局代理，所以必须得用 <code>Chrome</code> + <code>SwitchyOmega</code> 才能正常走代理访问网站。</p>
-<h3 id="31-下载安装">3.1 下载安装</h3>
+<h4 id="221-下载安装">2.2.1 下载安装</h4>
 <p>Chrome 下载点这里 -&gt; <a href="https://www.google.com/intl/zh-CN/chrome/" target="_blank" rel="noopener noreffer">Chrome</a></p>
 <p>SwitchyOmega 下载点这里 -&gt; <a href="https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.5.20/SwitchyOmega_Chromium.crx" target="_blank" rel="noopener noreffer">SwitchyOmega</a></p>
 <p>运行 <code>Chrome</code> 找到<strong>扩展程序</strong>的选项，<code>Windows</code>在[更多工具]-&gt;[扩展程序]，<code>Mac</code>在[窗口]-&gt;[扩展程序]</p>
 <p>把下载好的<code>SwitchyOmega_Chromium.crx</code>重命名<code>SwitchyOmega_Chromium.zip</code>，然后拖拽到扩展程序的这个页面，个别时候会收到浏览器安全提醒，忽略即可</p>
-<h3 id="32-配置-switchyomega">3.2 配置 SwitchyOmega</h3>
+<h4 id="222-配置-switchyomega">2.2.2 配置 SwitchyOmega</h4>
 <p>新建一个Profile假如就命名为<code>proxy</code></p>
 <figure><a class="lightgallery" href="https://i.loli.net/2020/05/16/ydznqv3lR2MIZxa.png" title="https://i.loli.net/2020/05/16/ydznqv3lR2MIZxa.png" data-thumbnail="https://i.loli.net/2020/05/16/ydznqv3lR2MIZxa.png" data-sub-html="<h2>新建Profile命名为proxy</h2>">
         <img
