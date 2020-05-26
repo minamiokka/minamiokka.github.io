@@ -1,9 +1,16 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>http://example.org/posts/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/a-new-way-to-cross-the-wall/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://example.org/ja/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://example.org/zh-cn/sitemap.xml</loc>
+		
+	   	<lastmod>2020-05-16T17:50:55+08:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
