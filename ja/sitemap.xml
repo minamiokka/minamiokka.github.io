@@ -11,15 +11,6 @@
                     hreflang="ja"
                     href="http://example.org/categories/"
                     /></url><url>
-            <loc>http://example.org/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://example.org/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ja"
-                    href="http://example.org/"
-                    /></url><url>
             <loc>http://example.org/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -28,4 +19,13 @@
                     rel="alternate"
                     hreflang="ja"
                     href="http://example.org/tags/"
+                    /></url><url>
+            <loc>http://example.org/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ja"
+                    href="http://example.org/"
                     /></url></urlset>
