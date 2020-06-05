@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
+        <title>為自由而戰</title>
         <link>http://example.org/zh-cn/</link>
-        <description>我的全新 Hugo 网站</description>
+        <description>為自由而戰</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 16 May 2020 17:50:55 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>

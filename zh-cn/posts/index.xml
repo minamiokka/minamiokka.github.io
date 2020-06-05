@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 我的全新 Hugo 网站</title>
+        <title>所有文章 - 為自由而戰</title>
         <link>http://example.org/zh-cn/posts/</link>
-        <description>所有文章 | 我的全新 Hugo 网站</description>
+        <description>所有文章 | 為自由而戰</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 16 May 2020 17:50:55 &#43;0800</lastBuildDate><atom:link href="http://example.org/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Trojan - 新时代的上网冲浪</title>
     <link>http://example.org/zh-cn/posts/a-new-way-to-cross-the-wall/</link>
