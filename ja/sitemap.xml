@@ -2,6 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://example.org/posts/</loc><lastmod>2020-06-06T16:03:51&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ja"
+                    href="http://example.org/posts/"
+                    /></url><url>
+            <loc>http://example.org/</loc><lastmod>2020-06-06T16:03:51&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ja"
+                    href="http://example.org/"
+                    /></url><url>
+            <loc>http://example.org/posts/different-in-japanese-between-local-and-foreigner/</loc><lastmod>2020-06-06T16:03:51&#43;08:00</lastmod></url><url>
             <loc>http://example.org/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -19,13 +38,4 @@
                     rel="alternate"
                     hreflang="ja"
                     href="http://example.org/tags/"
-                    /></url><url>
-            <loc>http://example.org/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://example.org/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="ja"
-                    href="http://example.org/"
                     /></url></urlset>

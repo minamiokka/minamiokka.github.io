@@ -2,7 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/zh-cn/posts/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/zh-cn/posts/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="ja"
+                        href="http://example.org/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://example.org/zh-cn/posts/"
+                    /></url><url>
             <loc>http://example.org/zh-cn/posts/a-new-way-to-cross-the-wall/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod></url><url>
             <loc>http://example.org/zh-cn/</loc><lastmod>2020-05-16T17:50:55&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
